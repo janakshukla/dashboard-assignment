@@ -4,7 +4,7 @@ const LowerPage = () => {
 
 
   return (
-    <div className="h-screen p-4 overflow-hidden ">
+    <div className="min-h-screen p-4 overflow-hidden ">
       <div className="border  border-[#EAECF0] h-full w-full rounded-xl shadow-sm shadow-[#1018280D] ">
         <div className="p-4 border-b border-[#EAECF0]">
           <h1 className="font-semibold font-inter text-lg text-[#101828] ">
