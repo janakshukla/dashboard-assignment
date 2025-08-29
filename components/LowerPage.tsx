@@ -26,7 +26,7 @@ const LowerPage = () => {
               size={16}
             />
           </div>
-          <button className="flex px-2 py-1 items-center gap-2 border border-[#D0D5DD] rounded-lg text-sm font-inter font-semibold text-[#344054] shadow-sm shadow-[#1018280D] ">
+          <button className="flex px-1 sm:px-2 py-1 items-center gap-2 border border-[#D0D5DD] rounded-lg text-sm font-inter font-semibold text-[#344054] shadow-sm shadow-[#1018280D] ">
             {" "}
             <ListFilterIcon size={12} /> Filters
           </button>

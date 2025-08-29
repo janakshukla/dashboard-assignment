@@ -5,7 +5,7 @@ import FeedBack from './Subcomponents/FeedBack'
 
 const UpperPage = () => {
   return (
-    <div className="min-h-[85vh] sm:flex  gap-4 p-4">
+    <div className="min-h-[85vh] flex flex-col md:flex-row  gap-4 p-4">
        <AccountProgress/>
         <TotalOnboarding/>
         <FeedBack/>
