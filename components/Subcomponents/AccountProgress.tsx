@@ -2,7 +2,7 @@ import React from "react";
 
 const AccountProgress = () => {
   return (
-    <div className="w-1/3 border h-full border-[#EAECF0] rounded-xl shadow-sm shadow-[#1018280D] px-6 ">
+    <div className="md:w-1/3 border h-full border-[#EAECF0] rounded-xl shadow-sm shadow-[#1018280D] px-6 ">
       <div className="h-1/3 border-b flex justify-center flex-col items-center border-[#E9EFF6] ">
         <h1 className="font-inter text-black font-semibold ">
           Account Progress
