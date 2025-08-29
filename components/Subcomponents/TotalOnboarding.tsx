@@ -4,7 +4,7 @@ import { TrendingUp } from "lucide-react";
 
 const TotalOnboarding = () => {
   return (
-    <div className="w-1/3  flex flex-col gap-4 h-full">
+    <div className="md:w-1/3  flex flex-col gap-4 h-full">
       <div className="h-1/2 border shadow-sm flex flex-col gap-2 shadow-[#1018280D] p-4 rounded-xl">
         <h1 className="text-black font-inter font-semibold ">
           Total Franchisees Onboard
