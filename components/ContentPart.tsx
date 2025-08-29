@@ -5,7 +5,7 @@ import UpperPage from "./UpperPage"
 
 const ContentPart = () => {
   return (
-    <div className="w-full h-screen   overflow-y-scroll " >
+    <div className="w-full h-screen  overflow-y-scroll " >
         <Header/>
         <UpperPage/>
         <LowerPage/>

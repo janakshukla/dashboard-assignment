@@ -19,11 +19,11 @@ const CustomSideBar = () => {
 
   return (
     <>
-      {/* Hamburger Button - visible on small screens */}
-      <button
-        className="md:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-[#11455D] text-white"
-        onClick={() => setIsOpen(!isOpen)}
-      >
+      {/* Hamburger Button - visible on medium and small screens */}
+<button
+  className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-[#11455D] text-white"
+  onClick={() => setIsOpen(!isOpen)}
+>
         <svg
           className="w-6 h-6"
           fill="none"
@@ -58,11 +58,11 @@ const CustomSideBar = () => {
 
       {/* Sidebar */}
       <div className={`
-        h-screen w-1/6 p-6 bg-[#11455D] fixed md:relative z-40
-        md:translate-x-0 transition-transform duration-300 ease-in-out
-        ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
-        md:w-1/6 w-64
-      `}>
+  h-screen w-1/6 p-6 bg-[#11455D] fixed lg:relative z-40
+  lg:translate-x-0 transition-transform duration-300 ease-in-out
+  ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
+  lg:w-1/6 w-64
+`}>
         <div className="h-11/12">
           <Image src={"/Images/Logo.png"} alt="logo" width={100} height={100} />
           {/* here we can use actual link tags but for demontration we are using li */}

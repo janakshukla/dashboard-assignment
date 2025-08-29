@@ -4,7 +4,7 @@ const FeedBack = () => {
   return (
     <div className="md:w-1/3  flex flex-col gap-4 h-full">
       <div className="flex-1 border shadow-sm flex flex-col   shadow-[#1018280D] p-4 rounded-xl">
-        <h1 className="text-black font-inter font-semibold ">
+        <h1 className="text-black font-inter text-nowrap font-semibold ">
           Key Insights & Feedback
         </h1>
         <div>
@@ -25,9 +25,9 @@ const FeedBack = () => {
             </h1>
             <p className="font-inter flex gap-2  font-medium text-xs text-[#455468] mt-2  ">
               <Dot color="#D9D9D9" />
-              <span className="-mt-1">
+              <span className="-mt-1  text-nowrap ">
                 {" "}
-                Franchisees are requesting more detailed training materials.
+                Franchisees are requesting <br /> more detailed training materials.
               </span>
             </p>
           </div>
@@ -42,7 +42,7 @@ const FeedBack = () => {
               Wade Warren
             </h1>
           </div>
-          <p className="font-inter text-sm text-[#475467] " >
+          <p className="font-inter text-sm hidden lg:block text-[#475467] " >
             Stage:
             <span className="text-black" >Initial Inquiry</span>
           </p>
@@ -54,7 +54,7 @@ const FeedBack = () => {
             Ava Wright
             </h1>
           </div>
-          <p className="font-inter text-sm text-[#475467] " >
+          <p className="font-inter text-sm hidden lg:block text-[#475467] " >
             Stage:
             <span className="text-black" >Initial Inquiry</span>
           </p>
@@ -66,7 +66,7 @@ const FeedBack = () => {
             Cody Fisher
             </h1>
           </div>
-          <p className="font-inter text-sm text-[#475467] " >
+          <p className="font-inter text-sm hidden lg:block text-[#475467] " >
             Stage:
             <span className="text-black" >Initial Inquiry</span>
           </p>

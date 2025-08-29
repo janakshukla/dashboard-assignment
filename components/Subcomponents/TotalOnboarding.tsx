@@ -18,7 +18,7 @@ const TotalOnboarding = () => {
                 7.4%
               </p>
             </div>
-            <img src="/Images/Avatars.png" alt="Users" />
+            <img className="scale-90" src="/Images/Avatars.png" alt="Users" />
           </div>
         </div>
         <img src="/Images/Line.png" alt="line" />
@@ -64,12 +64,12 @@ const TotalOnboarding = () => {
             </p>
           </div>
         </div>
-        <div className="flex p-2 gap-4">
+        <div className="flex p-2 gap-1 lg:gap-4">
           <div className="w-1/2 bg-[#F6F7FB] p-6 h-full text-center rounded-lg ">
             <h1 className="font-inter font-semibold text-sm text-[#455468] ">
               Target
             </h1>
-            <p className="font-inter font-semibold text-xl text-[#1C222B] mt-2 ">
+            <p className="font-inter font-semibold  lg:text-xl text-[#1C222B] mt-2 ">
               $500,000
             </p>
           </div>
@@ -77,7 +77,7 @@ const TotalOnboarding = () => {
             <h1 className="font-inter font-semibold text-sm text-[#455468] ">
               Current
             </h1>
-            <p className="font-inter font-semibold text-xl text-[#1C222B] mt-2 ">
+            <p className="font-inter font-semibold lg:text-xl text-[#1C222B] mt-2 ">
               $450,000
             </p>
           </div>

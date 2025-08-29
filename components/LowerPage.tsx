@@ -14,15 +14,15 @@ const LowerPage = () => {
             Documents that are uploaded by you.
           </p>
         </div>
-        <div className="flex justify-between p-4 ">
+        <div className="flex justify-between p-2 md:p-4 ">
           <div className="relative">
             <input
               placeholder="Search here.."
-              className="flex px-4 py-1 pl-10 items-center gap-2 border border-[#D0D5DD] rounded-md text-sm font-inter text-[#344054] shadow-sm shadow-[#1018280D]"
+              className="flex px-4 py-1 pl-5 md:pl-10 items-center gap-2 border border-[#D0D5DD] rounded-md text-sm font-inter text-[#344054] shadow-sm shadow-[#1018280D]"
               type="text"
             />
             <SearchIcon
-              className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#667085]"
+              className="absolute md:left-3 top-1/2 transform -translate-y-1/2 text-[#667085]"
               size={16}
             />
           </div>
