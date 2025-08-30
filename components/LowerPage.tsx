@@ -22,7 +22,7 @@ const LowerPage = () => {
               type="text"
             />
             <SearchIcon
-              className="absolute md:left-3 top-1/2 transform -translate-y-1/2 text-[#667085]"
+              className="absolute left-1 md:left-3 top-1/2 transform -translate-y-1/2 text-[#667085]"
               size={16}
             />
           </div>
